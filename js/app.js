@@ -1,7 +1,7 @@
 if (new Date().getUTCHours > 20 || new Date().getUTCHours < 8) {
-    document.body.style.backgroundImage = 'url(/pnj/1-377.jpg\,qitok=vMowVbmR.pagespeed.ce.go3bQ-ViLR.jpg)'
+    document.body.style.backgroundImage = 'url(/img/1-377.jpg\,qitok=vMowVbmR.pagespeed.ce.go3bQ-ViLR.jpg)'
 } else {
-    document.body.style.backgroundImage = 'url(/pnj/thumb_l_0689.jpg)'
+    document.body.style.backgroundImage = 'url(/img/thumb_l_0689.jpg)'
 }
 
 window.addEventListener("keypress", (e) => {
