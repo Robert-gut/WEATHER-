@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container search">
+            <h1>- WEATHER -</h1>
+            <h2>- CITY NAME -</h2>
+            <input type="text">
+            <br>
+            <button>OK</button>
+            <h4 id="titleForTible">Погода на 5 днів з 3-х годинним кроком.</h4>
+        </div>
+        <div class="container weather">
+            <img id="btnBack" style="position: absolute; left: 0px; cursor: pointer;" src="https://img.icons8.com/fluency/60/000000/circled-left-2.png"/>
+            <div class="row">
+                <div class="col-4">
+                    <h2 id="time"></h2>
+                </div>
+                <div class="col-4">
+                    <h1 id="city"></h1>
+                </div>
+                <div class="col-4">
+                    <h3 id="dateWether"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img id="generalPnj" src="" ><br>
+                    <h3 id="WeatherStan"></h3>
+                </div>
+                <div class="col-4">
+                    <h3 id="temp"></h3>
+                    <h3 id="temFelt"></h3>
+                    
+                </div>
+                <div class="col-4">
+                    <h3 id="temp_max"></h3>
+                    <h3 id="temp_min"></h3>
+                    <h3 id="humidity"></h3>
+                    <h3 id="pressure"></h3>
+                    <h3 id="sea_level"></h3>
+                    <h3 id="visibility"></h3>
+                </div>
+            </div>
+            <div class="row positionTop">
+                <div class="col-12">
+                    <h4 id="titleForTible">Погода на 5 днів з 3-х годинним кроком.</h4>
+                    <hr>
+                    <table id="ollInformaition">
+                        <tr>
+                            <th>Дата і час</th>
+                            <th>Темпер.</th>
+                            <th>Відчув. як</th>
+                            <th>Макс.Темп.</th>
+                            <th>Мін.Темп.</th>
+                            <th>Видимісьть</th>
+                            <th>Тиск</th>
+                            <th>Швидкісьть вітру</th>
+                            <th>Вологість</th>
+                            <th>Рівень моря</th>
+                            <th>Опис</th>
+                            <th>icon</th>
+                        </tr>
+                        
+                    </table>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

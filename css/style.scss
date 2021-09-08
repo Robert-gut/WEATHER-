@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(73, 139, 175);
+    background-image: url(/pnj/1-377.jpg\,qitok=vMowVbmR.pagespeed.ce.go3bQ-ViLR.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed
+}
+
+.search{
+    // display: none;
+    height: 90%;
+    background-color: rgba(86, 119, 131, 0.7);
+    border: cornsilk 2px solid ;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5%;
+    h4{
+        font-size: 32px;
+        margin: 20px;
+        color: #052c48;
+    }
+    h1{
+        margin-top: 8%;
+        color: rgb(76, 0, 255);
+        font-size: 92px;
+    }
+    h2{
+        margin-top: 5%;
+        color: rgba(0, 0, 255, 0.645);
+        font-size: 34px;
+    }
+    input{
+        margin: 1% 10px 15px;
+        width: 30%;
+        height: 50px;
+        border: cornsilk 2px solid ;
+        border-radius: 10px;
+        background-color: rgba(0, 166, 255, 0.645);
+        outline:none;
+        color: rgb(12, 24, 121);
+        font-size: 35px;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    button{
+        margin-bottom: 5%;
+        margin-bottom: 5%;
+        width: 150px;
+        height: 48px;
+        border: cornsilk 2px solid ;
+        border-radius: 10px;
+        background-color: rgba(0, 255, 229, 0.645);
+        color: blueviolet;
+        font-weight: 800;
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+
+.weather{
+    display: none;
+    position: relative;
+    height: 90%;
+    background-color: rgba(86, 119, 131, 0.7);
+    border: cornsilk 2px solid ;
+    border-radius: 10px;
+    text-align: center;
+    #time{
+        font-size: 55px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        color: #163644;
+    }
+    #city{
+        font-size: 85px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        color: #090a31e3;
+    }
+    #generalPnj{
+        position: relative;
+        top: -35px;
+        margin: 0;
+        padding: 0;
+        width: 300px;
+    }
+    #WeatherStan{
+        position: relative;
+        margin: 0;
+        top: -100px;
+        text-align: center;
+        font-size: 40px;
+        color: #0e1a3f;
+        text-transform: uppercase;
+        font-style:initial;
+    }
+    #temp{
+        margin: 40px 0 10px;
+        text-align: center;
+        font-size: 115px;
+        color: #0e2b3f;
+        text-transform: uppercase;
+        font-style:initial; 
+    }
+    #temFelt{
+        margin: 20px;
+        text-align: center;
+        font-size: 25px;
+        color: #02131f;
+        text-transform: uppercase;
+        font-style:initial;
+    }
+    #humidity, #pressure, #sea_level, #visibility, #temp_max, #temp_min{
+        position: relative;
+        top: -45px;
+        margin: 20px;
+        text-align: center;
+        font-size: 25px;
+        color: #02131f;
+        text-transform: uppercase;
+        font-style:initial;
+    }
+    .positionTop{
+        position: relative;
+        top: -60px;
+        #titleForTible{
+            margin: 0;
+            font-size: 24px;
+        }
+        hr{
+            color:cornsilk;
+        }
+        table ,tr,th,td{
+            table-layout: fixed;
+            width: 100%;
+            border-collapse: collapse;
+            border: 3px solid rgba(255, 248, 220, 0.576);
+            th{
+                color: rgb(2, 2, 80);
+            }
+            tr:hover > td{
+                background-color: rgba(255, 248, 220, 0.309);
+            }
+            
+        }
+    }
+    
+}
